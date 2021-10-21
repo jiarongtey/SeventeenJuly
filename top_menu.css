@@ -1,0 +1,182 @@
+/* Top Menu */
+#topmenu {
+    top: 0;
+    z-index: 1;
+    position: fixed;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+i {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    cursor: pointer;
+    width: 20px; 
+    height: 20px;
+    color: black;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.logo {
+    display: flex;  
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 16px;
+    width: 25%; 
+    overflow: hidden;
+}
+
+.content {
+    position: relative;
+    margin-top: 60px;
+    width: 100%;
+    z-index: -1;
+}
+
+.brand {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+
+}
+
+.brandbutton {
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+.brandbutton:hover {
+    background-color: #d4d4d4;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.search-login-signup {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
+.login-signup-button {
+    font-size: 10px;
+    height: 100%;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    transition: 0.3s;
+    text-transform: uppercase;
+    padding: 5px 0;
+}
+
+.login-signup-button:hover {
+    background-color: #d4d4d4;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.categories > a{
+    display:block;
+    
+    margin-left: 50px;
+}
+
+
+#logo:hover{
+    cursor: pointer;
+}
+a:hover {
+    cursor: pointer;
+}
+
+#notification-profile {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 25%;
+}
+
+.noti-icon, .profile-icon {
+    margin: 15px;
+}
+
+.profile-icon {
+    margin: 0 50px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content-profile {
+    font-size: 12px;
+    width: 120px;
+    display: none;
+    position: absolute;
+    right: 0%;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transition: background-color 0.2s;
+    overflow: hidden;
+}
+
+
+.dropdown-content-profile a {
+    color: black;
+    padding: 12px 16px;
+    width: 100%;
+    text-decoration: none;
+    display: block;
+
+}
+
+.dropdown-content-profile a:hover {
+    background-color: #ddd;
+    transition: background-color 0.2s;
+}
+
+.brand-dropdown{
+    position: relative;
+    display:inline-block;
+
+}
+
+.brand-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .brand-dropdown-content a {
+    color: black;
+
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+.brand-dropdown-content a:hover {background-color: #d4d4d4}
+
+.brand-dropdown:hover .brand-dropdown-content {
+  display: block;
+}

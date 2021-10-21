@@ -1,0 +1,95 @@
+.content {
+    margin: 80px 175px;
+}
+
+h3 {
+    margin: 50px 0;
+}
+
+.row {
+    width: 100%;
+    height: 60px;
+    border: 0.5px solid grey;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 40px;
+    margin: 10px 0;
+    background-color: white;
+    transition: background-color 0.2s;
+}
+
+.row:hover {
+    background-color: #eee;
+    transition: background-color 0.2s;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.row img {
+    width: auto;
+    height: 50px;
+}
+
+.row p {
+    margin-left: 30px;
+}
+
+.price {
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price p:nth-child(1) {
+    margin-right: 40px;
+}
+
+.row label input{
+    margin-left: auto;
+    margin-right: 5px;
+    width: 50px;
+    text-align: right;
+}
+
+.confirmation {
+    margin: 20px 0;
+    float: right;
+}
+
+.confirmation button {
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+.confirmation button:hover {
+    cursor: pointer;
+}
+
+.confirmation button:nth-child(1) {
+    color: white;
+    border: none;
+    outline: none;
+    background-color: black;
+    margin-right: 15px;
+    transition: background-color 0.2s;
+}
+
+.confirmation button:nth-child(1):hover {
+    background-color: #636363;
+    transition: background-color 0.2s;
+}
+
+.confirmation button:nth-child(2) {
+    color: white;
+    border: none;
+    outline: none;
+    background-color: #d6133e;
+    transition: background-color 0.2s;
+}
+
+.confirmation button:nth-child(2):hover {
+    background-color: #f73b65;
+    transition: background-color 0.2s;
+}

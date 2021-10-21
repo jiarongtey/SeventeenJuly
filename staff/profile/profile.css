@@ -1,0 +1,39 @@
+.profile-content {
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+    margin-top: 80px;
+
+}
+
+.left-content {
+    height: 100vh;
+    border-right: 0.5px solid grey;
+}
+
+.profile-picture{
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+        border-radius: 50%;
+        margin: 0 auto 30px auto;
+}
+      
+.profile-picture img {  
+        width: auto;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 20px 300px;
+}
+.mid-content{
+    margin: 0 auto;
+}
+.right-content {
+    margin: 0 auto;
+}

@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.product {
+    display:flex;
+}
+
+.column {
+    width: 500px;
+    margin: 125px 100px;
+}
+
+.right-column {
+    width: 400px;
+    margin: 200px 100px;
+}
+
+.column >img {
+    max-width: 500px;
+    max-height: 500px;
+    padding:30px;
+}
+
+.column >h1{
+    padding-top:30px;
+}
+
+.price{
+    padding-top: 30px;
+    font-size: large;
+    padding-bottom: 30px;
+}
+
+#shoesize {
+    margin-bottom: 30px;
+
+}
+
+.selectlabel {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.selector {
+    width:200px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    background-color: black;
+    color: whitesmoke;
+    border: transparent;
+    font-size: large;
+}
+
+.description {
+    margin-right: 70px;
+}
+
+.description > p{
+    display: block;
+    margin-inline-start: auto;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: start;
+    margin-bottom: 15px;
+}
+
+
+.footer {
+    bottom: 0;
+    width:100%;
+    background-color: rgb(34, 34, 34);
+    height: 200px;
+    color: rgb(146, 145, 145);
+    font-size: 15px;
+    list-style-type: none;
+}
+
+.gethelp>li:hover{
+    cursor:pointer;
+    transition: 0.3s;
+    color:whitesmoke
+}
+
+.gethelp>li {
+    
+    margin-top: 15px;
+}
+#footertitle{
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.gethelp{
+    padding-top: 10px;
+    padding-left: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}

@@ -1,0 +1,441 @@
+
+body {
+    margin-bottom: 60px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropbtn {
+    border: none;
+    outline: none;
+    height: 45px;
+    padding: 0 20px;
+    background-color: white;
+    transition: background-color 0.2s;
+}
+
+.dropdown:hover .dropbtn, .dropbtn:hover {
+    cursor: pointer;
+    background-color: #d4d4d4;
+    transition: background-color 0.2s;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: white;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content label {
+    display: block;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.dropdown-content label input{
+    margin-right: 5px;
+}
+
+.dropdown-content label:hover {
+    background-color: #d4d4d4;
+    transition: background-color 0.2s;
+}
+
+.chkbox-shoesname [type=checkbox] {
+    cursor: pointer;
+    min-width: 20px;
+    min-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Show promotion shoes checkbox */
+.show-promo {
+    margin-left: auto;
+}
+
+.show-promo input {
+    margin-right: 5px;
+}
+/* Content */
+#content {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: 50px;
+}
+
+.search-filter {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 45px;
+    margin-top: 65px;
+}
+
+/* Search */
+.search {  
+    margin-right: 10px;
+}
+
+.search button {
+    background-color: white;
+    outline: none;
+    border: none;
+    width: 40px;
+}
+
+.search-bar {
+    display: none; 
+}
+
+.search-icon {
+    margin: 0 10px;
+    color: rgb(90, 90, 90);
+    height: 20px;
+}
+
+
+
+/* shoes big container */
+.content-shoes {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+/* shoes container */
+.shoes-img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 20px 40px;
+    margin-bottom: 20px 0;
+    max-width: 200px;
+    max-height: 300px;
+    font-size: 12.5px;
+}
+
+.shoes-img-container:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 15px #888888;
+}
+
+.chkbox-shoesname {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chkbox-shoesname p{
+    margin-left: 10px;
+}
+
+.chkbox {
+    margin-right: auto;
+}
+
+/* shoes image */
+.shoes-img {
+    max-width: 150px;
+    max-height: 250px;
+}
+
+.discount {
+    color: white;
+    background-color: #9e0318;
+    padding: 5px 10px;
+}
+
+/* footer */
+#item-setting {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 25% 25% 25% 25%;
+    bottom: 0; 
+    left: 50%;
+    margin-left: -40%; 
+    width: 80%;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+    background-color: #d6d6d6;
+    overflow: hidden;
+    position: fixed;
+    z-index: 1;
+}
+
+.button {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.item-button {
+    width: 100%;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color: #d6d6d6;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.item-button:hover {    
+    background-color: #a6a6a6;
+    transition: background-color 0.2s;
+}
+
+#confirm {
+    display: none;
+    background-color: #F3F5F6;
+    color: #000000;
+    border: 1px solid #aaa; 
+    position: fixed;
+    width: 350px;
+    height: 150px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ }
+ #confirm button {
+    color: white;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    width: 100px;
+    cursor: pointer;
+    background-color: black;
+    transition: background-color 0.2s;
+ }
+
+ #confirm button:hover {
+    background-color: grey;
+    transition: background-color 0.2s;
+ }
+
+ #confirm .message {
+    font-size: 17.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 35px;
+ }
+
+ #confirm .message i {
+     color: red;
+     height: 20px;
+     width: 20px;
+     cursor: unset;
+     margin: 0 10px;
+ }
+
+ #remove-confirm {
+    display: none;
+    background-color: #F3F5F6;
+    color: #000000;
+    border: 1px solid #aaa; 
+    position: fixed;
+    width: 450px;
+    padding-bottom: 20px;
+    min-height: 175px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ }
+
+ #remove-confirm button {
+    color: white;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    margin: 0 20px;
+    width: 100px;
+    cursor: pointer;
+    background-color: black;
+    transition: background-color 0.2s;
+ }
+
+ #remove-confirm button:hover {
+    background-color: grey;
+    transition: background-color 0.2s;
+ }
+
+ #remove-confirm .remove-message {
+    font-size: 17.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 35px;
+ }
+
+ #remove-confirm .remove-message i {
+     color: red;
+     height: 20px;
+     width: 20px;
+     cursor: unset;
+     margin: 0 10px;
+ }
+
+.remove-shoes-list {
+    max-height: 75px;
+    overflow: auto;
+}
+
+
+#promo-confirm {
+    display: none;
+    background-color: #F3F5F6;
+    color: #000000;
+    border: 1px solid #aaa; 
+    position: fixed;
+    width: 450px;
+    padding-bottom: 20px;
+    min-height: 175px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ }
+
+ #promo-confirm button {
+    color: white;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    margin: 0 20px;
+    width: 100px;
+    cursor: pointer;
+    background-color: black;
+    transition: background-color 0.2s;
+ }
+
+ #promo-confirm button:hover {
+    background-color: grey;
+    transition: background-color 0.2s;
+ }
+
+ #promo-confirm .promo-message {
+    font-size: 17.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 35px;
+ }
+
+ #promo-confirm .promo-message i {
+     color: red;
+     height: 20px;
+     width: 20px;
+     cursor: unset;
+     margin: 0 10px;
+ }
+
+.promo-shoes-list {
+    max-height: 75px;
+    overflow: auto;
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .shoes-img {
+        max-width: 200px;
+    }
+
+    .shoes-img-container {
+        max-width: 250px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .content-shoes {
+        grid-template-columns: auto auto auto;
+    }
+
+    .shoes-img {
+        max-width: 200px;
+    }
+
+    .shoes-img-container {
+        max-width: 250px;
+    }
+} 
+  
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .content-shoes {
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .shoes-img {
+        max-width: 200px;
+    }
+
+    .shoes-img-container {
+        max-width: 250px;
+    }
+
+    .search {
+        display: flex;  
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 30px;
+        border: none;
+        border-bottom: 1px solid gray;
+        margin-right: 20px;
+    }
+    
+    .search button {
+        background-color: white;
+        outline: none;
+        border: none;
+        width: 40px;
+    }
+    
+    .search-bar {
+        display: block;
+        padding: 5px 10px;
+        border: none;
+        outline: none;  
+    }
+    
+    .search-icon {
+        margin: 0 10px;
+        color: rgb(90, 90, 90);
+        height: 20px;
+    }
+    
+} 

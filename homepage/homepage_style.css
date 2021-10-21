@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Image header*/
+.imgcontainer {
+    text-align:center;
+    padding-top: 30px;
+}
+
+.wordposter {
+    text-align: center;
+}
+
+.wordposter >h2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wordposter>h4{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#newarrival {
+    padding-left: 30px;
+}
+
+#promotions{
+    padding-left:30px;
+    margin-top: 30px;
+}
+
+.imgborderrow{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.imgcolumn {
+    width: 250px;
+    margin: 0 20px;
+}
+
+.imgcolumn p {
+    margin: 5px 0;
+}
+
+.imgcolumn a:link{
+    text-decoration: none;
+    color:black
+}
+
+.imgcolumn a:visited{
+    text-decoration: none;
+    color:black
+}
+
+.imgcolumn img {
+    width: 200px;
+    height: auto;
+}
+
+
+.discount {
+    position: relative;
+    color: white;
+    background-color: red;
+    padding: 5px 10px;
+    bottom: 0;
+}
+.footer {
+    bottom: 0;
+    width:100%;
+    background-color: rgb(34, 34, 34);
+    height: 200px;
+    color: rgb(146, 145, 145);
+    font-size: 15px;
+    list-style-type: none;
+}
+
+.gethelp>li:hover{
+    cursor:pointer;
+    transition: 0.3s;
+    color:whitesmoke
+}
+
+.gethelp>li {
+    
+    margin-top: 15px;
+}
+#footertitle{
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.gethelp{
+    padding-top: 10px;
+    padding-left: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.brand-dropdown{
+    position: relative;
+    display:inline-block;
+
+}
+
+.brand-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .brand-dropdown-content a {
+    color: black;
+
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+.brand-dropdown-content a:hover {background-color: #d4d4d4}
+
+.brand-dropdown:hover .brand-dropdown-content {
+  display: block;
+}

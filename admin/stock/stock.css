@@ -1,0 +1,83 @@
+
+
+.content{
+    font-family: 'Montserrat', sans-serif;
+    padding-top:100px;
+    font-size:22px;
+}
+
+.overall{
+    display:flex; 
+}
+
+.overall a{
+    color:rgb(179, 179, 179);
+    text-decoration:none;
+    font-weight: bold;
+}
+
+.overall h1{
+    text-align: center;
+}
+
+.title{
+    margin-left: 10%;
+}
+
+.stock_table{
+    margin-left: 5%;
+    margin-top: 2%;
+    width:90%;
+    border-collapse: collapse;
+    overflow: auto;
+    height: 65vh;
+}
+
+#table{
+    
+    width:100%;
+}
+
+#table tr a {
+    color: whitesmoke;
+}
+#table tr{
+width: 100%;    
+  background-color: rgb(23, 47, 63);
+  color: whitesmoke; 
+  text-align: center;
+  border: 1px solid black;
+
+}
+
+#table td{
+    padding: 20px;
+}
+
+a:hover {
+    cursor:pointer;
+}
+
+
+
+.showstock{
+    display:flex;
+}
+
+.button_edit button{
+    right:10%;
+    bottom: 60%;
+
+    position: absolute;
+}
+
+#save{
+    background-color: #2081f0; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

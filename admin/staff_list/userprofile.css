@@ -1,0 +1,220 @@
+
+.content{
+    display:flex;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.leftcontainer{
+    display: fixed;
+    height: 100vh;
+    width: 20%;
+    background-color: rgb(231, 231, 231);
+    overflow: auto;
+}
+
+.leftcontainer h2{
+    font-size: 30px;   
+    margin-bottom: 15px;  
+
+}
+
+.leftcontainer a{
+    display: block;
+    color:black;
+
+}
+
+
+.leftcontainer a:hover{
+    cursor: pointer;
+}
+
+
+
+.rightcontainer{
+    width: 100%;
+}
+
+.topcontainer{
+    height: 6%;
+    width: 100%;
+    margin-top: 60px;
+    background-color: rgb(27, 58, 78);
+    color: white;
+    display:flex;
+    align-items: center;
+}
+
+.topcontainer h2{
+    padding: 5px 30px;
+    font-size: 35px;
+}
+.topcontainer h5{
+    padding-top: 50px;
+    font-size: 15px;
+}
+
+.avatar{
+    width: 200px;
+    height: 200px;
+    margin-left: 60px;
+    margin-top: 20px;
+
+    border-radius: 2%;
+}
+
+.stafflist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.stafflist a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    margin: 10px 0;
+    color: grey;
+}   
+
+.staffinfo{
+    display:flex;   
+}
+
+.staff {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.staff:hover {
+    background-color: #c9c9c9;
+}
+.infoleft{
+    padding: 5px;
+    font-size: 15px;
+}
+
+.infoleft h3{
+    margin: 20px;
+    
+}
+
+.inforight{
+    padding-top: 5px;
+    padding-left: 15px;
+    font-size: 15px;
+    width: 400px;
+}
+
+.inforight h3{
+    margin-left: 20px;
+
+}
+
+.editable {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.Task { 
+    width: 100%;
+    height: 170px;
+    
+  }
+
+  .task-list {
+    height: 120px;
+    overflow-y: auto;
+  }
+  
+  .Task a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  .Task h5 {
+    padding: 10px 40px;
+  }
+
+  .Task h5:hover {
+    background-color: #2382c2;
+
+  }
+  
+  .Task h3.active {
+    padding: 10px 30px;
+    background-color: #394d64;
+    color: white;
+  }
+
+.yes{
+    padding: 10px 40px;
+    color: #6bc77d;
+    font-weight: 900;
+}
+.no{
+    padding: 10px 40px;
+    color: #f22e2e;
+    font-weight: 900;
+
+
+}
+
+.buttontask{
+    padding-left : 70px;
+}
+
+input[type=submit] {
+    width: 150px;
+    background-color: #2081f0;
+    transition: background-color 0.4s;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+input[type=submit]:hover {
+    background-color: #1f67b8;
+    transition: background-color 0.4s;
+}
+
+  input[type=text], select {
+    width: 57.5%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+
+  }
+  
+
+.edit-img{
+    width: 20px;
+    height: 20px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.update{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    width: 20%;
+}

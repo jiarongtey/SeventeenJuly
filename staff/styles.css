@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+div {
+    display: block; 
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+i {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    cursor: pointer;
+    width: 20px; 
+    height: 20px;
+    
+}
+
+.desktop-container {
+    max-width: 100%;
+}
+
+/* Top-Menu */
+#top-menu {
+    top: 0;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.logo-icon {
+    display: flex;  
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 16px;
+    height: 100%;
+    width: 20%; 
+    overflow: hidden;
+}
+
+#navigation {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 55%;
+}
+
+.navigation-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 0 30px;
+    height: 100%;
+    background-color: white;
+    transition: background-color 200ms;
+}
+
+.navigation-button:hover {
+    background-color: #d4d4d4;
+    transition: 0.2s;
+}
+
+
+#notification-profile {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 25%;
+    right: 0%;
+    margin-top: 10px;
+}
+
+
+.noti-icon, .profile-icon {
+    margin: 15px;
+}
+
+.profile-icon {
+    margin: 0 50px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content-profile {
+    margin-right: 10px;
+    font-size: 12px;
+    width: 120px;
+    display: none;
+    position: absolute;
+    right: 0%;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transition: background-color 0.2s;
+    overflow: hidden;
+}
+
+
+.dropdown-content-profile a {
+    color: black;
+    padding: 12px 16px;
+    width: 100%;
+    text-decoration: none;
+    display: block;
+
+}
+
+.dropdown-content-profile a:hover {
+    background-color: #ddd;
+    transition: background-color 0.2s;
+}

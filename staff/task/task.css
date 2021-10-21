@@ -1,0 +1,79 @@
+.content {
+    margin: 80px 175px;
+}
+.row {
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 40px;
+    margin: 20px 0;
+    background-color: #ededed;
+    transition: background-color 0.2s;
+}
+
+.row:hover {
+    background-color: #ddd;
+    transition: background-color 0.2s;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+.finished-row {
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 40px;
+    margin: 10px 0;
+    background-color: lightgray;
+    color: white;
+}
+
+.task {
+    margin-left: 30px;
+}
+
+.new-task {
+    margin-left: auto;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    padding: 7.5px 15px;
+    font-size: 15px;
+    transition: background-color 0.2s;
+}
+
+.new-task:hover {
+    background-color: darkgreen;
+    transition: background-color 0.2s;
+}
+
+.new-task:focus {
+    outline: none;
+    border: none;
+}
+
+.finished-task {
+    margin-left: auto;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: lightgreen;
+    border-radius: 5px;
+    padding: 7.5px 15px;
+    font-size: 15px;
+    transition: background-color 0.2s;
+}
+
+.finished-task:focus {
+    outline: none;
+}
+

@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.dropdown{
+    position: relative;
+    display:inline-block;
+    margin-left: 50px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.box{
+    margin-top: 60px;
+    padding: 30px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.headerlabel{
+    width:50%;
+    display:flex;
+    left:50%;
+    position:relative;
+}
+
+.labelhalf{
+    width:50%;
+    text-align: right;
+}
+
+.labelquarter{
+    width:25%;
+    text-align: right;
+}
+
+.cartrow{
+    margin-top: 30px;
+    border-top: black 1px solid;
+}
+
+.cartitemrow{
+    width:100%;
+    padding-top: 30px;
+    display:flex
+}
+
+.cartitemleft{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cartitemright{
+    width: 50%;
+    display:flex;
+}
+
+.itempicture img{
+    width: 300px;
+    height: auto;
+    margin-right: 100px;
+}
+
+.itemdetail{
+    display: block;
+
+}
+
+.itemname{
+    font-weight: 700;
+    margin-bottom: 50px;
+    font-size: large;
+}
+
+
+.quantityselector {
+    width:50%;
+    border: 1px solid;
+    float:right;
+    
+}
+
+.subtotalright{
+    text-align: right;
+    margin-top: 30px;
+}
+
+.subtotal{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    padding-bottom: 30px;
+}
+
+.button{
+    border:1px solid;
+    border-color: black;
+    background-color: transparent;
+    padding:8px 16px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor:pointer;
+    transition: 0.3s;
+    color: black;
+}
+
+
+
+
+
+
+
+.footer {
+    bottom: 0;
+    width:100%;
+    background-color: rgb(34, 34, 34);
+    height: 200px;
+    color: rgb(146, 145, 145);
+    font-size: 15px;
+    list-style-type: none;
+}
+
+.gethelp>li:hover{
+    cursor:pointer;
+    transition: 0.3s;
+    color:whitesmoke
+}
+
+.gethelp>li {
+    
+    margin-top: 15px;
+}
+#footertitle{
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.gethelp{
+    padding-top: 10px;
+    padding-left: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
